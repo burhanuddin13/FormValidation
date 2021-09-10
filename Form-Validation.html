@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Validation - Internet Programming</title>
+    </head>
+    <body background="Blue-Velvet.jpg" style="color: azure; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;">
+        <header style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 14px; text-align: center;">
+            <img src=MHSSCE-Logo.png height="100px" width="100px"><br>
+            Anjuman-i-Islam's <br>
+            <b>M. H. Saboo Siddik College of Engineering</b> <br>
+            Byculla - 400 008. <br>
+        </header>
+        <hr width="500px">
+        <h1 style="text-align: center; font-family: cursive;">Alumni Association of MHSSCE</h1>
+        <form method="POST" action="https://www.mhssce.ac.in">
+            Name:          <input type="text" name="name" required> <br>
+            Address:       <textarea cols="40" rows="4" name="address" required></textarea><br>
+            Date of Birth: <input type="date" name="dob" required max="1999-08-21"><br>
+            Email:         <input type="email" name="email" required> <br>
+            Stream: <br>
+            <table style="font-family:'Times New Roman', Times, serif;">
+                <tr>
+                    <td>
+                        <input type="radio" id="automobile" name="Stream" value="Automobile Engineering" required>
+                        <label for="automobile">Automobile Engineering</label>
+                    <td>
+                        <input type="radio" id="computer" name="Stream" value="Computer Engineering" required>
+                        <label for="computer">Computer Engineering</label>
+                <tr>
+                    <td>
+                        <input type="radio" id="civil" name="Stream" value="Civil Engineering" required>
+                        <label for="civil">Civil Engineering</label>
+                    <td>
+                        <input type="radio" id="electronic" name="Stream" value="Electronic Engineering" required>
+                        <label for="electronic">Electronic Engineering</label>
+                <tr>
+                    <td>
+                        <input type="radio" id="information" name="Stream" value="Information Technology" required>
+                        <label for="information">Information Technology</label>
+            </table>
+            Hobbies: <br>
+            <table style="font-family:'Times New Roman', Times, serif;">
+                <tr>
+                    <td>
+                        <input type="checkbox" id="reading" name="Hobbies_1" value="Reading">
+                        <label for="reading">Reading</label>
+                    <td>
+                        <input type="checkbox" id="television" name="Hobbies_2" value="Television">
+                        <label for="television">Television</label>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="music" name="Hobbies_3" value="Music">
+                        <label for="music">Music</label>
+                    <td>
+                        <input type="checkbox" id="gardening" name="Hobbies_4" value="Gardening">
+                        <label for="gardening">Gardening</label>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="video_games" name="Hobbies_5" value="Video Games">
+                        <label for="video_games">Video Games</label>
+                    <td>
+                        <input type="checkbox" id="sports" name="Hobbies_6" value="Sports">
+                        <label for="sports">Sports</label>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="shopping" name="Hobbies_7" value="Shopping">
+                        <label for="shopping">Shopping</label>
+                    <td>
+                        <input type="checkbox" id="travelling" name="Hobbies_8" value="Travelling">
+                        <label for="travelling">Travelling</label>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="writing" name="Hobbies_9" value="Writing">
+                        <label for="writing">Writing</label>
+                    <td>
+                        <input type="checkbox" id="running" name="Hobbies_10" value="RUnning">
+                        <label for="running">Running</label>
+            </table>
+            <input type="submit" name="submit">
+        </form>
+    </body>
+</html>
